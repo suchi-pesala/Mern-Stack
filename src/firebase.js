@@ -20,7 +20,4 @@ const app = initializeApp(firebaseConfig);
 // Initialize Firebase Authentication
 export const auth = getAuth();
 
-// Initialize Firebase Realtime Database
-const db = getDatabase(app);
-
 export default app;

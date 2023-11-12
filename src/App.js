@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Test from './Test';
 import Googleform from './Googleform';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Protected from './Protected';
