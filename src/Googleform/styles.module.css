@@ -1,6 +1,9 @@
 .google_form_container {
     max-width: 400px;
     margin: auto;
+    @media(max-width:787px){
+        max-width: 300px;
+    }
   }
   
   form {
