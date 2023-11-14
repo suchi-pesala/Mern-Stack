@@ -11,6 +11,7 @@ function Signup() {
     email:'',
     password:''
   });
+  console.log(formData,'formData');
   const [loginError, setLoginError] = useState(null);
   const handleSignUp = async(e) => {
     e.preventDefault();
