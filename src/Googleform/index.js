@@ -20,7 +20,7 @@ const Googleform = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5001/api/sample/submitForm', formData);
+      await axios.post('https://suchi.onrender.com/api/sample/submitForm', formData);
       alert('Form submitted successfully!');
       // Clear form after submission
       setFormData({ name: '', email: '', message: '' });
